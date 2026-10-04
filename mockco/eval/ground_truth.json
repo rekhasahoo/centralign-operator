@@ -1,0 +1,25 @@
+{
+  "latest_by_vendor": {
+    "Acme Corp": {
+      "invoice_number": "INV-2026-0455",
+      "amount": 62400.0,
+      "due_date": "2026-10-28",
+      "po_number": "PO-88123",
+      "file": "scan_0931.pdf"
+    },
+    "Globex Ltd": {
+      "invoice_number": "INV-G-7781",
+      "amount": 125000.0,
+      "due_date": "2026-11-04",
+      "po_number": "",
+      "file": "globex_oct.pdf"
+    },
+    "Initech": {
+      "invoice_number": "INV-IN-220",
+      "amount": 9800.0,
+      "due_date": "2026-10-19",
+      "po_number": "",
+      "file": "initech_sep.pdf"
+    }
+  }
+}

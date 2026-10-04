@@ -1,0 +1,21 @@
+[
+  {
+    "name": "invoice_over_50k",
+    "decision": "require_approval",
+    "reason": "invoice total over INR 50,000 needs requester approval (AP procedure #6)",
+    "tool": "browser_submit",
+    "source": "effect",
+    "arg": "amount",
+    "op": "gt",
+    "value": 50000
+  },
+  {
+    "name": "inspect_all_candidates",
+    "decision": "deny",
+    "tool": "browser_submit",
+    "source": "effect",
+    "arg": "_unread_sources",
+    "op": "nonempty",
+    "reason": "these listed documents were never opened: {_unread_sources}. Open and compare every candidate before submitting, since the choice (e.g. 'latest') depends on all of them"
+  }
+]

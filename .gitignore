@@ -1,0 +1,8 @@
+.env
+.env.example
+artifacts/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.db
+test_azure.py

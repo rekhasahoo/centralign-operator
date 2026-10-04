@@ -1,0 +1,12 @@
+pydantic>=2
+fastapi
+uvicorn
+python-multipart
+httpx
+jsonschema
+playwright
+reportlab
+pypdf
+python-dateutil
+openai>=1.40
+pytest
